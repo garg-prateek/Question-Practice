@@ -9,8 +9,8 @@ public class DigitCounter {
 	public static void main(String[] args) {
 		System.out.println("Enter the digit");
 		Scanner s = new Scanner(System.in);
-		//int digit = s.nextInt();
-		double digit = s.nextDouble();
+		int digit = s.nextInt();
+		// double digit = s.nextDouble();
 		int count = 0;
 		while (digit != 0) {
 			digit = digit / 10;
